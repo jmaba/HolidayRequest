@@ -17,7 +17,7 @@ namespace HolidayRequestUnitTests
 
         public HolidayRequestsUnitTests()
         {
-            ServiceLocator.NotificationService = new MockNotificationService();
+            ServiceLocator.NotificationService = new NotificationServiceMock();
 
             companyStorage = new CompanyStorage();
             companyStorage.CleanupStorage();

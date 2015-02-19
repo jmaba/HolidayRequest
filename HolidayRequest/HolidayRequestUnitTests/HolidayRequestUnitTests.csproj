@@ -59,7 +59,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="HolidayRequestsUnitTests.cs" />
-    <Compile Include="MockNotificationService.cs" />
+    <Compile Include="NotificationServiceMock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Storage\CompanyRepository.cs" />
+    <Compile Include="Storage\CompanyStorage.cs" />
     <Compile Include="Notification\EmailNotification.cs" />
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="Entities\HolidayInterval.cs" />

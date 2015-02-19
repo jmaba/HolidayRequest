@@ -3,7 +3,7 @@ using Domain.Notification;
 
 namespace HolidayRequestUnitTests
 {
-    class MockNotificationService : INotificationService
+    class NotificationServiceMock : INotificationService
     {
         public void SendNotification(NotificationMessage message)
         {
