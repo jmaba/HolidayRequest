@@ -26,8 +26,8 @@ namespace Domain.Entities
 
         private static void PersistHolidayRequest(HolidayRequest holidayRequest)
         {
-            CompanyStorage companyPersistance = new CompanyStorage();
-            companyPersistance.AddHolidayRequest(holidayRequest);
+            CompanyStorage companyStorage = new CompanyStorage();
+            companyStorage.AddHolidayRequest(holidayRequest);
         }
     }
 }
